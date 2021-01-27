@@ -7,8 +7,13 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<Header />
-				<Contact />
+				<Header branding="Contact Manager 1" />
+				<Contact name="John Doe" email="jdoe@gmail.com" phone="555-555-555" />
+				<Contact
+					name="Karen Smith"
+					email="karen@gmail.com"
+					phone="333-333-333"
+				/>
 			</div>
 		);
 	}
